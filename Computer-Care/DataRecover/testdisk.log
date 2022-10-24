@@ -1,0 +1,31 @@
+
+
+Sun Jul 18 20:20:48 2021
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 6.4, Cygwin 2009.0
+ext2fs lib: 1.43.1, ntfs lib: 10:0:0, reiserfs lib: none, ewf lib: 20140608, curses lib: ncurses 6.0
+disk_get_size_win32 IOCTL_DISK_GET_LENGTH_INFO(/dev/sda)=500107862016
+disk_get_size_win32 IOCTL_DISK_GET_LENGTH_INFO(/dev/sdb)=120034123776
+disk_get_size_win32 IOCTL_DISK_GET_LENGTH_INFO(/dev/sdc)=8589934592
+disk_get_size_win32 IOCTL_DISK_GET_LENGTH_INFO(/dev/sdd)=15807283200
+disk_get_size_win32 IOCTL_DISK_GET_LENGTH_INFO(\\.\PhysicalDrive0)=500107862016
+disk_get_size_win32 IOCTL_DISK_GET_LENGTH_INFO(\\.\PhysicalDrive1)=120034123776
+disk_get_size_win32 IOCTL_DISK_GET_LENGTH_INFO(\\.\PhysicalDrive2)=8589934592
+disk_get_size_win32 IOCTL_DISK_GET_LENGTH_INFO(\\.\PhysicalDrive3)=15807283200
+disk_get_size_win32 IOCTL_DISK_GET_LENGTH_INFO(\\.\C:)=119910281216
+disk_get_size_win32 IOCTL_DISK_GET_LENGTH_INFO(\\.\D:)=22020096000
+disk_get_size_win32 IOCTL_DISK_GET_LENGTH_INFO(\\.\E:)=217055232000
+disk_get_size_win32 IOCTL_DISK_GET_LENGTH_INFO(\\.\F:)=114227675136
+disk_get_size_win32 IOCTL_DISK_GET_LENGTH_INFO(\\.\G:)=15806234624
+Hard disk list
+Disk /dev/sda - 500 GB / 465 GiB - CHS 60801 255 63, sector size=512 - WDC WD5000AAKX-22ERMA0, S/N:WD-WCC2EU095138, FW:17.01H17
+Disk /dev/sdb - 120 GB / 111 GiB - CHS 14593 255 63, sector size=512 - CHINGMX120B, S/N:21010031-000055, FW:H201202b
+Disk /dev/sdc - 8589 MB / 8192 MiB - CHS 1044 255 63, sector size=512 - Msft Virtual Disk, FW:1.0
+Disk /dev/sdd - 15 GB / 14 GiB - CHS 1921 255 63, sector size=512 - Generic STORAGE DEVICE, FW:1404
+
+SIGHUP detected! TestDisk has been killed.

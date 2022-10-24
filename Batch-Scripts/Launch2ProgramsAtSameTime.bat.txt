@@ -1,0 +1,6 @@
+:: This should allow launching 2 programs simultaneously.
+
+@echo off
+
+start "NameOfProgram1" "DirectoryOfProgram1"
+start "NameOfProgram2" "DirectoryofProgram2"
