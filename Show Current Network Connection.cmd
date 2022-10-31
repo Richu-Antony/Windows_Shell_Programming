@@ -1,1 +1,0 @@
-netsh wlan show networks 
