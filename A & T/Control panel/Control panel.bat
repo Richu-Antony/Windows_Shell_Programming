@@ -1,6 +1,6 @@
 @echo off
 @REM mode con cols=50 lines=50
-title Control Panel V28.10.22 8.30 
+title Control Panel - MultiFunctional V2.11.22
 
 cls
 
@@ -12,9 +12,9 @@ start C_panel_Speech.vbs
 color A
 
 echo.
-echo Copyright(C) By Rica Inc.
+echo Copyright(C) 2022 By Rica Inc.
 echo #
-echo  Tool        : Control Panel V28.10.22 8.30                                      
+echo  Tool        : Control Panel V2.11.22                                   
 echo  Author      : Richu Antony                                 
 echo  Description : MultiFunctional Control Pannel                    
 echo #
@@ -50,7 +50,7 @@ echo 45. Safely remove hardware         0. Exit
 echo.
 echo.
 
-set /p choice=Choice: 
+set  /p choice=Choice:  
 goto %choice%
 
 :1
@@ -340,3 +340,5 @@ goto %choice%
 
 :0
     exit /b
+
+::Verified and Tested

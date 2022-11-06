@@ -1,16 +1,16 @@
 @echo off 
 @REM mode con cols=50 lines=50
-title Computer Care V31.10.22 12.22
+title Computer Care V2.11.22
 
 cls
 
 :CCare
   echo.
-  echo Copyright(C) By Rica Inc.
+  echo Copyright(C) 2022 By Rica Inc.
   echo #
-  echo  Tool        : Computer Care V31.10.22 12.22                                   
+  echo  Tool        : Computer Care V2.11.22                                 
   echo  Author      : Richu Antony                                 
-  echo  Description : Computer Care                  
+  echo  Description : Computer Care with toolkit               
   echo #
   echo ==== Thanks for using our service please help us to improve the work by donating and contributing ====
   echo.
@@ -456,3 +456,5 @@ START RAMMap.exe
 
 :Exit
   exit /b
+
+::Verified and Tested
