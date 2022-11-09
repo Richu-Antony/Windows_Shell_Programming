@@ -1,6 +1,6 @@
 @echo off 
 @REM mode con cols=50 lines=50
-title Private Folder V2.11.22
+title Folder Locker V6.11.22
 
 
 :Main
@@ -9,9 +9,9 @@ cls
 echo.
 echo Copyright(C) 2022 By Rica Inc.
 echo #
-echo  Tool        : Private Folder V2.11.22                                  
+echo  Tool        : Folder Locker V6.11.22                                 
 echo  Author      : Richu Antony                                 
-echo  Description : Private Folder                 
+echo  Description : Folder Locker                
 echo #
 echo ==== Thanks for using our service please help us to improve the work by donating and contributing ====
 echo.
@@ -25,13 +25,12 @@ if NOT EXIST Private goto MDLOCKER
 
 :CONFIRM
     echo.
-    echo - Version 2.11.22
-    echo.
+    echo V6.11.22
     echo =======================================================
     echo "Coded By Richu Antony / Do Not Share Without Credits"
     echo =======================================================
     timeout /t 3 /nobreak
-    title Private Folder - Lock Function
+    title Folder Locker - Lock Function
     echo.
     echo ============================================================
     echo  Are you sure you want to lock the Private folder (Yes/No) ?
@@ -59,7 +58,7 @@ if NOT EXIST Private goto MDLOCKER
     echo "Coded By Richu Antony / Do Not Share Without Credits"
     echo =======================================================
     timeout /t 3 /nobreak
-    title Private Folder - Unlock Function
+    title Folder Locker - Unlock Function
     echo.
     echo =============================================
     echo  Enter Password to Unlock The Private folder!
@@ -70,12 +69,11 @@ if NOT EXIST Private goto MDLOCKER
     if NOT %pass%== Jarvis goto FAIL
     attrib -h -s "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}"
     ren "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}" Private
-    title Private Folder - Coded By Richu Antony
     echo.
     echo Private Folder Unlocked Successfully
     echo.
     timeout /t 5 /nobreak
-    title Private Folder - Help Page
+    title Folder Locker V6.11.22 - Help Page
     echo.
     echo.
     echo ==========================================
@@ -96,8 +94,7 @@ if NOT EXIST Private goto MDLOCKER
 
 :somewhere_else
     cls
-    start chrome.exe https://github.com/
-    start chrome.exe https://www.instagram.com/
+    start chrome.exe https://github.com/Richu-Antony
     goto End
 
 :FAIL

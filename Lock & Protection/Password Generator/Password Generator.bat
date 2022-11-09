@@ -6,7 +6,7 @@ SET Self=Password Generator V6.11.22
 ::IF NOT DEFINED in_subprocess (CMD /K SET in_subprocess=y ^& %0 %*) & EXIT )
 TITLE %Self%
 SET SPGprompt=SPG ^$
-SET Ver=V2.11.22
+SET Ver=V6.11.22
 
 cls
 
@@ -97,29 +97,15 @@ echo.
 	COLOR E
 	CLS
 	CALL:HEADER
-	ECHO  :                                                                                           :
-	ECHO  :            The original random char generator (:PGEN) was provided by TheOutcaste.        :
-	ECHO  :            The Simple Password Generator is a batch script that builds upon that          :
-	ECHO  :            to generate user selectable lengths passwords and save them to file.           :
-	ECHO  :                                                                                           :
-	ECHO  :            Copyright (C) 2017 the-j0k3r ^<th3-j0ker at protonmail dot com^>               :
-	ECHO  :            Copyright :PGEN (C) 2009 ^<http://tinyurl.com/TheOutcaste^>                    :
-	ECHO  :                                                                                           :
-	ECHO  :            This program is FREE software. You can redistribute it and/or                  :
-	ECHO  :            modify it under the terms of the GNU General Public License                    :
-	ECHO  :            as published by the Free Software Foundation; either version 2                 :
-	ECHO  :            of the License, or (at your option) any later version.                         :
-	ECHO  :                                                                                           :
-	ECHO  :            This program is distributed in the HOPE that it will be USEFUL,                :
-	ECHO  :            but WITHOUT ANY WARRANTY; without even the implied warranty of                 :
-	ECHO  :            MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.                           :
-	ECHO  :            See the GNU General Public License for more details.                           :
-	ECHO  :                                                                                           :
-	ECHO  :            You should have received a copy of the GNU General Public License              :
-	ECHO  :            along with this program. If not, write to the Free Software Foundation,        :
-	ECHO  :            Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.             :
-	ECHO  :                                                                                           :
-	ECHO  +-------------------------------------------------------------------------------------------+
+	echo Copyright(C) 2022 By Rica Inc.
+	echo #
+	echo  Tool        : Password Generator V6.11.22
+	echo  Author      : Richu Antony
+	echo  Description : Password Generator
+	echo #
+	echo ==== Thanks for using our service please help us to improve the work by donating and contributing ====
+	echo.
+	echo.
 	ECHO.
 
 :QUERY

@@ -1,6 +1,6 @@
 @echo OFF
 @REM mode con cols=80 lines=25
-title Light effect V6.11.22
+title TV no signal V6.11.22
 
 color f
 cls
