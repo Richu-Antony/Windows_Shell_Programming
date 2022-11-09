@@ -40,7 +40,7 @@ IF "%ERRORLEVEL%" NEQ "0" (
 
 :: Menu
 :MENU
-    SET VERSION=V2.11.22
+    SET VERSION=V6.11.22
     TITLE Hyper-V Toggler %VERSION%
     CLS
     for /f "tokens=4-6 delims=[] " %%G in ('ver') do set WINVER=%%G
