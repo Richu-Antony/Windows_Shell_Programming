@@ -1,5 +1,0 @@
-[autorun]
-icon=drive.ico
-open=launch.bat
-action=Click ok to Run Windows
-shell\open\command=launch.bat

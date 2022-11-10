@@ -10,9 +10,9 @@ cls
 echo.
 echo Copyright(C) By Rica Inc.
 echo #
-echo  Tool        : All in one Software Solution V29.10.22 8.34                                      
-echo  Author      : Richu Antony                                 
-echo  Description : All in one Software Solution                   
+echo  Tool        : All in one Software Solution V6.11.22
+echo  Author      : Richu Antony
+echo  Description : All in one Software Solution
 echo #
 echo ==== Thanks for using our service please help us to improve the work by donating and contributing ====
 echo.
@@ -35,12 +35,14 @@ color A
 echo.
 echo Copyright(C) By Rica Inc.
 echo #
-echo  Tool        : All in one Software Solution V29.10.22 8.34                                      
-echo  Author      : Richu Antony                                 
-echo  Description : All in one Software Solution                   
+echo  Tool        : All in one Software Solution V6.11.22
+echo  Author      : Richu Antony
+echo  Description : All in one Software Solution
 echo #
 echo ==== Thanks for using our service please help us to improve the work by donating and contributing ====
 echo.
 echo.
 
 pause
+
+::Verified and Tested

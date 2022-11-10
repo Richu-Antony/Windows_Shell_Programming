@@ -1,6 +1,6 @@
 @echo off 
 mode con: cols=106
-title Shortcut Window - for Windows 7, 8, 10 and 11  V2.11.22
+title Shortcut Window - for Windows 7, 8, 10 and 11  V6.11.22
 
 
 
@@ -9,7 +9,7 @@ title Shortcut Window - for Windows 7, 8, 10 and 11  V2.11.22
     echo.
     echo Copyright(C) 2022 By Rica Inc.
     echo #
-    echo  Tool        : Shortcut Window V2.11.22                                   
+    echo  Tool        : Shortcut Window V6.11.22                                   
     echo  Author      : Richu Antony                                 
     echo  Description : Shortcut Window for Windows 7, 8, 10 and 11             
     echo #

@@ -1,3 +1,25 @@
+@ECHO OFF
+REM BFCPEOPTIONSTART
+REM Advanced BAT to EXE Converter www.BatToExeConverter.com
+REM BFCPEEXE=C:\Users\richu\OneDrive\Desktop\Git Activities Automation.exe
+REM BFCPEICON=C:\Users\richu\Downloads\git_93585.ico
+REM BFCPEICONINDEX=-1
+REM BFCPEEMBEDDISPLAY=0
+REM BFCPEEMBEDDELETE=1
+REM BFCPEADMINEXE=1
+REM BFCPEINVISEXE=0
+REM BFCPEVERINCLUDE=1
+REM BFCPEVERVERSION=6.11.22.0
+REM BFCPEVERPRODUCT=Git Activities Automation
+REM BFCPEVERDESC=Git Activities Automation
+REM BFCPEVERCOMPANY=Rica
+REM BFCPEVERCOPYRIGHT=@Rica inc
+REM BFCPEWINDOWCENTER=1
+REM BFCPEDISABLEQE=0
+REM BFCPEWINDOWHEIGHT=0
+REM BFCPEWINDOWWIDTH=0
+REM BFCPEWTITLE=Window Title
+REM BFCPEOPTIONEND
 @echo off 
 @REM mode con cols=50 lines=50
 setlocal enableextensions enabledelayedexpansion
@@ -22,11 +44,11 @@ title Git Activities - Automation V6.11.22
 :loop
 	echo.
 	echo.
-	echo 1. Pull								11. Pull (all projects)
-	echo 2. Status								22. Status (all projects)
-	echo 3. Add .								33. Add . (all projects)
-	echo 4. Commit -m"Automated commit"			44. Commit -m"Automated commit" (all projects)
-	echo 5. Push								55. Push (all projects)
+	echo 1. Pull						11. Pull (all projects)
+	echo 2. Status						22. Status (all projects)
+	echo 3. Add .						33. Add . (all projects)
+	echo 4. Commit -m"Automated commit"		44. Commit -m"Automated commit" (all projects)
+	echo 5. Push						55. Push (all projects)
 	echo 0. Exit
 	echo.
 	echo.
